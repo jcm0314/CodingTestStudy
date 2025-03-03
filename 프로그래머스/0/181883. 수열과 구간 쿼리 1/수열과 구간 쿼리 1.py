@@ -1,6 +1,4 @@
 def solution(arr, queries):
-    for i in queries:
-        increse = [x + 1 for x in arr[i[0]:i[1]+1]]
-        arr[i[0]:i[1]+1] = increse
-    
+    for l,r in queries:
+        for i in range(l,r+1): arr[i]+=1
     return arr
