@@ -30,6 +30,7 @@ public class Main {
         int count = 0;
         int maxArea = 0;
         
+        // 여기에서는 입력을 더 안 읽고, 배열만 돌면 됨
         for (int i = 0; i < n; i++) {
             for (int j=0; j < m; j++){
                 if (paper[i][j] == 1 && !visited[i][j]) {
