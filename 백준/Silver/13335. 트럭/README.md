@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 14428 KB, 시간: 120 ms
+메모리: 15276 KB, 시간: 120 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2026년 3월 15일 11:31:16
+2026년 2월 1일 23:37:57
 
 ### 문제 설명
 
@@ -20,7 +20,7 @@
 
 <p>예를 들어, 다리의 길이 w는 2, 다리의 최대하중 L은 10, 다리를 건너려는 트럭이 트럭의 무게가 [7, 4, 5, 6]인 순서대로 다리를 오른쪽에서 왼쪽으로 건넌다고 하자. 이 경우 모든 트럭이 다리를 건너는 최단시간은 아래의 그림에서 보는 것과 같이 8 이다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/13335/1.png" style="height:214px; width:664px"></p>
+<p style="text-align: center;"><img alt="" src="" style="height:214px; width:664px"></p>
 
 <p style="text-align: center;">Figure 1. 본문의 예에 대해 트럭들이 다리를 건너는 과정.</p>
 
