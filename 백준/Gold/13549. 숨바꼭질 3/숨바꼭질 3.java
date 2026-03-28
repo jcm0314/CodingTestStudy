@@ -30,7 +30,7 @@ public class Main {
         dist[N] = 0;
         
         while (!dq.isEmpty()) {
-            int x = dq.pollFirst();
+            int x = dq.removeFirst();
             
             if (x == K) {
                 return dist[x];
