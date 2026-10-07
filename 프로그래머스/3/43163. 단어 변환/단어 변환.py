@@ -27,5 +27,5 @@ def bfs(begin, target, words):
                 if current[i] != word[i]: # 한글자가 다르면
                     count += 1 # +1 하기
             if count == 1: # count 값이 1이면 큐에 넣기
-                queue.append([word, step+1])
+                queue.append([word, step+1]) # word 값이 count == 1 이므로 word 값을 큐에 step+1 해서 넣기
     
