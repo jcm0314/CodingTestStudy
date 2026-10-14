@@ -20,4 +20,3 @@ def solution(people, limit):
         answer += 1
     return answer
     
-    return answer
