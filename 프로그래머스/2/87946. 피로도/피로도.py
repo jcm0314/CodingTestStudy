@@ -4,12 +4,12 @@ def solution(k, dungeons):
     visited = [False] * n
     
     def dfs(current_k, count):
-        nonlocal answer
-        answer = max(answer, count)
+        nonlocal answer # 밖에 local 값으로 한다는 뜻
+        answer = max(answer, count) # 최댓값으로 갱신
         
         for i in range(n):
             min_required, fatigue_cost = dungeons[i]
-            if not visited[i] and current_k >= min_required:
+            if visited[i] == False and current_k >= min_required:
                 visited[i] = True
                 dfs(current_k - fatigue_cost, count + 1)
                 visited[i] = False
