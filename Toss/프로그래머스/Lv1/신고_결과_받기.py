@@ -1,3 +1,6 @@
+# [Lv.1] 신고 결과 받기 #92334
+# https://school.programmers.co.kr/learn/courses/30/lessons/92334
+
 def solution(id_list, report, k):
     reportees = {}
     reporters = {}

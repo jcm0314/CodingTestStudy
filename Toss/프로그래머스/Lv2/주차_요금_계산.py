@@ -1,3 +1,6 @@
+# [Lv.2] 주차 요금 계산 #92341
+# https://school.programmers.co.kr/learn/courses/30/lessons/92341
+
 import math
 def solution(fees, records):
     #누적, 지금 계산
