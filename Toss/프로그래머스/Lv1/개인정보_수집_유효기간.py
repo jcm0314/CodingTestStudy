@@ -6,13 +6,13 @@ def solution(today, terms, privacies):
     for term in terms:
         rule_sort, month = term.split(" ")
         month_int = int(month)
+        # YYYYMMDD에 유효기간을 더하면 월 자리가 넘칠 수 있어, 날짜를 일 단위로 계산한다.
         rule_expire_dict[rule_sort] = month_int * 28
 
     for i, privacy in enumerate(privacies):
         agree_date, rule_sort = privacy.split(" ")
         agree_date_int = parse_date(agree_date)
         agree_date_int += rule_expire_dict[rule_sort]
-
         if today_int >= agree_date_int: answer.append(i+1)
 
     return answer
